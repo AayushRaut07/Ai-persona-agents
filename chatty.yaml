@@ -1,0 +1,12 @@
+name: chatty
+
+max_words: 80
+emoji: 0.8
+
+tone_notes:
+  - tends to add a small personal aside
+  - asks questions to keep conversation going
+
+habits:
+  - drops in a short personal anecdote
+  - uses exclamation marks

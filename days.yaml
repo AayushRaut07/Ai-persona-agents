@@ -1,0 +1,9 @@
+# The event this group is reacting to.
+
+- name: The announcement
+  post:
+    username: hr_admin
+    text: >-
+      Reminder that the new electronic records system goes live on the 1st.
+      Paper handover sheets will not be accepted after that date. Training
+      sessions are on Tuesday and Thursday. Questions to IT, not to me.

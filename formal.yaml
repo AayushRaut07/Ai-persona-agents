@@ -1,0 +1,9 @@
+name: formal
+
+formality: 0.95
+typos: 0.0
+
+habits_per_person: 2
+habits:
+  - writes in complete, carefully structured sentences
+  - avoids contractions entirely

@@ -1,0 +1,52 @@
+# A group of people, described once instead of written out one by one.
+#
+# Writing fifteen persona files by hand does not scale. Here you say how
+# many people you want and give hints for the fields you care about, and
+# make_people.py turns that into real persona files you can open and read.
+#
+# A hint can be:
+#   a list      - pick one of exactly these
+#   a sentence  - ask the model for a pool of options, then pick from it
+#   left out    - the model picks freely
+#
+# The more you pin down, the less the model invents.
+
+name: Foobar Hospital staff
+size: 15
+
+hints:
+  name: Australian names, a mix of backgrounds, first name and surname
+  job:
+    - Registered Nurse
+    - Ward Clerk
+    - IT Support Officer
+    - Radiographer
+    - Pharmacist
+    - Practice Manager
+    - Receptionist
+  employer:
+    - Foobar Hospital
+
+# Each person gets one trait and one vocabulary style at random, from the
+# shared traits/ and styles/ folders. Fifteen people, four voices, so some
+# share a voice but not a job, opinion or name.
+traits:
+  - blunt
+  - warm
+  - chatty
+  - timid
+
+vocabulary:
+  - professional
+  - casual
+
+# What the group is split over. Each person is put on one side.
+stance:
+  topic: replacing the paper handover sheets with the new records system
+  sides:
+    - for
+    - against
+
+# Which lab services these people can use.
+apps:
+  - forum

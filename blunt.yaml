@@ -1,0 +1,17 @@
+# A communication trait: HOW this person comes across.
+# Sets the length, emoji level and tone. A persona can have more than one.
+
+name: blunt
+
+max_words: 45
+emoji: 0.0              # 0.0 = never, 1.0 = lots
+
+tone_notes:
+  - gets to the point immediately, no preamble
+  - comfortable disagreeing openly
+  - does not soften opinions with "I think maybe"
+
+habits:
+  - occasionally uses a dry one-line remark
+  - ends messages abruptly with no sign-off
+  - uses short sentences. Like this.

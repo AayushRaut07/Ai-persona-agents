@@ -1,0 +1,9 @@
+# Created when the simulation runs
+memory/
+company/personas/
+*.log
+
+# Python
+__pycache__/
+venv/
+.venv/

@@ -1,0 +1,9 @@
+name: casual
+
+formality: 0.3
+typos: 0.3
+
+habits_per_person: 2
+habits:
+  - signs off with "cheers"
+  - uses contractions and short filler words

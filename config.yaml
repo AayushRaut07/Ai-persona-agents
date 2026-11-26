@@ -1,0 +1,27 @@
+# Settings for the simulation. For a quick demo, lower the four timing
+# values at the bottom (for example 10, 25, 30, 60).
+
+# The model most personas use.
+default_model: llama3.2:3b
+
+# Where Ollama is listening. A URL rather than a local call, so a persona
+# can point at a model on a different machine by changing this.
+ollama_url: http://localhost:11434
+
+# Creativity. Higher = more varied wording, lower = more repetitive.
+temperature: 0.8
+
+# The forum the personas post to. Blank keeps the thread in memory.
+forum_url: 
+
+# How many times each persona acts before everyone leaves the forum.
+turns_per_day: 4
+
+# Seconds between one persona acting and the next, picked at random
+# between the two.
+min_gap: 30
+max_gap: 120
+
+# Seconds everyone stays away before returning to the forum.
+min_away: 600
+max_away: 1800
