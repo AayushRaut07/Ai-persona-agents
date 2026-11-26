@@ -1,9 +1,16 @@
-# The event this group is reacting to.
+# The post that starts each day of the simulation.
+#
+# Empty the list and the personas start their own conversations instead
+# of reacting to a post.
 
-- name: The announcement
+- name: Day 1
   post:
-    username: hr_admin
+    username: dwilson
+    text: I think we should move everything to the cloud. On-prem is dead.
+
+- name: Day 2
+  post:
+    username: itops
     text: >-
-      Reminder that the new electronic records system goes live on the 1st.
-      Paper handover sheets will not be accepted after that date. Training
-      sessions are on Tuesday and Thursday. Questions to IT, not to me.
+      We're choosing where to host the new shared file server next month -
+      cloud provider or on-site. Input welcome before Friday.
